@@ -2,8 +2,8 @@ import { h, Component } from 'preact';
 import { Link } from 'preact-router';
 
 export default class Header extends Component {
-	render() {
-		return (
+  render() {
+    return (
       <header className="bg-holly p2">
         <div
           className="flex items-center"
@@ -21,7 +21,7 @@ export default class Header extends Component {
             >KOZIGAZGATAS</Link>
           </nav>
         </div>
-			</header>
-		);
-	}
+      </header>
+    );
+  }
 }
