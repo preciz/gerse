@@ -7,7 +7,7 @@ export default class Header extends Component {
       <header className="bg-holly p2">
         <div
           className="flex items-center"
-          style="max-width: 1170px;"
+          style="max-width: 1170px; margin: auto;"
         >
           <h1 className="color-white m0 h3 pr4">GERSEKARAT</h1>
           <nav className="flex">
