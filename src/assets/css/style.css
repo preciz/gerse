@@ -1,0 +1,13 @@
+/* BASE */
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+/* COLORS */
+.bg-holly {
+  background-color: #00140b;
+}
+
+.color-white {
+  color: white;
+}
