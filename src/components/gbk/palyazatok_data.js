@@ -15,8 +15,8 @@ const example = {
   ],
   pictures: [
     "http://gersekarat.hu/img/milleniumi_park.jpg",
-    "http://gersekarat.hu/img/milleniumi_park.jpg",
-    "http://gersekarat.hu/img/milleniumi_park.jpg",
+    "http://i.imgur.com/ifvZ5Ss.jpg",
+    "http://i.imgur.com/IsrWfA5g.jpg",
   ],
 };
 
