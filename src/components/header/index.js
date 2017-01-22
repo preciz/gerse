@@ -12,13 +12,17 @@ export default class Header extends Component {
           <h1 className="color-white m0 h3 pr4">GERSEKARAT</h1>
           <nav className="flex">
             <Link
-              className="color-white text-decoration-none pr2"
+              className="color-white text-decoration-none pr2 bold"
               href="/"
             >HIREK</Link>
             <Link
-              className="color-white text-decoration-none px2"
+              className="color-white text-decoration-none px2 bold"
               href="/kozigazgatas"
             >KOZIGAZGATAS</Link>
+            <Link
+              className="color-white text-decoration-none px2 bold"
+              href="/gbk"
+            >BARATI KOR</Link>
           </nav>
         </div>
       </header>
