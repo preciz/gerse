@@ -1,4 +1,5 @@
 import { h, Component } from 'preact';
+import Palyazatok from './palyazatok.js';
 
 const description_one = "Az egyesület 1999-ben alakult a település közösségi életének szervezése, a község fejlesztése, hagyományainak, építészeti és természeti értékeinek védelme érdekében. Az egyesület a Művelődési Házban működik. 2001-től a helyi önkormányzattal kötött közművelődési megállapodás alapján, mint a Gersekaráti Teleház gazdája és működtetője a település valamennyi polgára, intézménye és civil szerveződése számára nyitott közösségi színteret biztosít, elérhető szolgáltatásokat nyújt, közösségi, kulturális, szabadidős és ismeretterjesztő programokat szervez.";
 
@@ -7,7 +8,7 @@ const description_two = "Az egyesület 2002-től tagja a Magyar Teleház Szövet
 const description_three = "2006-tól kezdődően az önkormányzattal kötött közfeladatellátási szerződés alapján az egyesület működteti a Művelődési Házban az Ifjúsági Klub és Információs Pontot, mely a helyi fiatalok számára nyújt szabadidős programokat és információs szolgáltatást. Az egyesület az általa működtetett közösségi színterek szolgáltatásain és programjain keresztül a lakosság széles rétegeivel áll kapcsolatban. Több közösség, civil szervezet létrehozását segítette elő, és segíti azok folyamatos működését. Az egyesület pályázati tevékenysége is egyre jelentősebb. A szervezet 2006-tól tagja a helyi LEADER Akciócsoportnak, 2008-tól pedig a Göcsej-Hegyhát Leader Egyesületnek és a Hegyháti Kulturális Közkincs Kerekasztalnak. Az egyesület által működtetett közösségi terek, azok programjai, szolgáltatásai nyitottak, bármely érdeklődő személy vagy közösség (gyermekek, fiatalok, felnőttek, civil szervezetek, intézmények) számára biztosított a bekapcsolódás, részvétel lehetősége.";
 
 export default class Gbk extends Component {
-  state = { show_description: true }
+  state = { show_description: false }
 
   render(_props, { show_description }) {
     return (
@@ -15,69 +16,93 @@ export default class Gbk extends Component {
         <div className="bg-white mt3 p3 bshadow-md">
           <h1 className="center h2 m0 mt2 mb3">Gersekaratert Barati Kor</h1>
           <p className="m0 justify color-endeavour">{ description_one }</p>
-					{
-						show_description && <div>
-							<p className="m0 justify mt2 color-gray">{ description_two }</p>
-							<p className="m0 justify mt2 color-gray">{ description_three }</p>
+          {
+            show_description && <div>
+              <p className="m0 justify mt2 color-gray">{ description_two }</p>
+              <p className="m0 justify mt2 color-gray">{ description_three }</p>
 
-              <div className="mt3">
-                <p className="m0 mb1 h4 bold">Vezetőségi és Bizottsági tagok:</p>
-                <ul className="list-reset m0">
-                  <li>
-                    <span className="pr1">Elnök:</span>
-                    Ferencz Lászlóné
-                  </li>
-                  <li>
-                    <span className="pr1">Alelnök:</span>
-                    Pintérné Nagy Éva</li>
-                  <li>
-                    <span className="pr1">Titkár:</span>
-                    ifj. Ferencz László
-                  </li>
-                  <li>
-                    <span className="pr1">Gazdasági felelős:</span>
-                    Gombos Anita
-                  </li>
-                  <li>
-                    <span className="pr1">Felügyelő Bizottság elnöke:</span>
-                    Horváth Veronika
-                  </li>
-                  <li>
-                    <span className="pr1">Felügyelő Bizottság tagjai:</span>
-                    Babos Andrea, Gorza Norbert
-                  </li>
-                </ul>
-              </div>
+              <p className="m0 mb1 mt3 h4 bold">Vezetőségi és Bizottsági tagok:</p>
+              <ul className="list-reset m0">
+                <li>
+                  <span className="pr1">Elnök:</span>
+                  Ferencz Lászlóné
+                </li>
+                <li>
+                  <span className="pr1">Alelnök:</span>
+                  Pintérné Nagy Éva</li>
+                <li>
+                  <span className="pr1">Titkár:</span>
+                  ifj. Ferencz László
+                </li>
+                <li>
+                  <span className="pr1">Gazdasági felelős:</span>
+                  Gombos Anita
+                </li>
+                <li>
+                  <span className="pr1">Felügyelő Bizottság elnöke:</span>
+                  Horváth Veronika
+                </li>
+                <li>
+                  <span className="pr1">Felügyelő Bizottság tagjai:</span>
+                  Babos Andrea, Gorza Norbert
+                </li>
+              </ul>
 
-              <div className="mt3">
-                <p className="m0 mb1 h4 bold">Elérhetőségek:</p>
-                <ul className="list-reset m0">
-                  <li>
-                    <span className="pr1">Cím:</span>
-                    9813 Gersekarát, Honvéd u. 2.
-                  </li>
-                  <li>
-                    <span className="pr1">Tel:</span>
-                    +36-94/574-032
-                  </li>
-                  <li>
-                    <span className="pr1">Fax:</span>
-                    +36-94/574-033
-                  </li>
-                  <li>
-                    <span className="pr1">Mobil:</span>
-                    +36-30/851-3028
-                  </li>
-                  <li>
-                    <span className="pr1">E-mail:</span>
-                    <a href="mailto:gersebkor@freemail.hu">
-                      gersebkor@freemail.hu
-                    </a>
-                  </li>
-                </ul>
-              </div>
-						</div>
-					}
+              <p className="m0 mb1 mt3 h4 bold">Elérhetőségek:</p>
+              <ul className="list-reset m0">
+                <li>
+                  <span className="pr1">Cím:</span>
+                  9813 Gersekarát, Honvéd u. 2.
+                </li>
+                <li>
+                  <span className="pr1">Tel:</span>
+                  +36-94/574-032
+                </li>
+                <li>
+                  <span className="pr1">Fax:</span>
+                  +36-94/574-033
+                </li>
+                <li>
+                  <span className="pr1">Mobil:</span>
+                  +36-30/851-3028
+                </li>
+                <li>
+                  <span className="pr1">E-mail:</span>
+                  <a href="mailto:gersebkor@freemail.hu">
+                    gersebkor@freemail.hu
+                  </a>
+                </li>
+              </ul>
+
+              <p className="m0 mb1 mt3 h4 bold">Dokumentumok:</p>
+              <ul className="list-reset m0">
+                <li>
+                  <a
+                    target="_blank"
+                    href="https://drive.google.com/file/d/0B7EPicf9wHAFdkFLZkhQUWY0T0k/view?usp=sharing"
+                  >
+                    2013. évi egyszerűsített beszámoló
+                  </a>
+                </li>
+                <li>
+                  <a
+                    target="_blank"
+                    href="https://drive.google.com/file/d/0B7EPicf9wHAFVmJ0Z0Z6N0didUk/view?usp=sharing"
+                  >
+                    2013. évi egyszerűsített beszámoló közhasznúsági melléklete
+                  </a>
+                </li>
+                <li>
+                  <a
+                    target="_blank"
+                    href="https://drive.google.com/file/d/0B7EPicf9wHAFOXJac3Bsc1F1Qzg/view?usp=sharing"
+                  >
+                    2015. évi egyszerűsített beszámoló és közhasznúsági melléklete
+                  </a>
+                </li>
+              </ul>
+            </div>
+          }
           {
             !show_description && <div className="mb1 mt3">
               <a
@@ -91,6 +116,7 @@ export default class Gbk extends Component {
             </div>
           }
         </div>
+        <Palyazatok />
       </div>
     );
   }
