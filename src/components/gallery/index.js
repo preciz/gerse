@@ -23,6 +23,7 @@ export default class Gbk extends Component {
     const showNext = this.showNext(pictures, active);
 
     const style = {
+      backgroundColor: '#444',
       backgroundImage: `url('${pictures[active]}')`,
       height: 430,
       backgroundRepeat: 'no-repeat',
