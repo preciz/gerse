@@ -73,7 +73,8 @@
 .font-size-inherit{ font-size:inherit }
 .text-decoration-none{ text-decoration:none }
 
-.bold{ font-weight: bold; font-weight: bold }
+.bold{ font-weight: 700 }
+.fw900{ font-weight: 900 }
 .regular{ font-weight:normal }
 .italic{ font-style:italic }
 .caps{ text-transform:uppercase; letter-spacing: .2em; }
@@ -614,6 +615,7 @@ body {
 .bg-holly { background-color: #00140b; }
 .bg-cararra { background-color: #F3F4F1; }
 .bg-white { background-color: white; }
+.bg-fun-green { background-color: #006D33; }
 
 .color-white { color: white; }
 .color-endeavour { color: #005CA1; }
