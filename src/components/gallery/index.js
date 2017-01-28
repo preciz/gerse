@@ -1,10 +1,19 @@
 import { h, Component } from 'preact';
 
+function preloadImage(url) {
+  let img = new Image();
+  img.src = url;
+}
+
 export default class Gbk extends Component {
   state = { active: 0 }
 
   showNext(pictures, active) {
     return (active + 1) < pictures.length;
+  }
+
+  componentDidMount() {
+    this.props.pictures.map(preloadImage);
   }
 
   render({ pictures }, { active }) {
