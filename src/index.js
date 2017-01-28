@@ -1,6 +1,13 @@
 // import 'promise-polyfill';
 // import 'isomorphic-fetch';
 import { h, render } from 'preact';
+import Promise from 'promise-polyfill';
+import 'whatwg-fetch';
+
+// To add to window
+if (!window.Promise) {
+  window.Promise = Promise;
+}
 
 let root;
 function init() {
