@@ -19,12 +19,6 @@ export default class App extends Component {
       <div id="app">
         <div
           className="millenium-park"
-          style={{
-            height: 300,
-            backgroundImage: `url("/assets/images/milleniumi_park.jpg")`,
-            backgroundPosition: '50% 60%',
-            backgroundRepeat: 'no-repeat',
-          }}
         />
         <Header />
         <div className="flex justify-center pb4">
