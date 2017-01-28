@@ -15,7 +15,7 @@ export default class Home extends Component {
 
   render(_props, { hirek, show_count }) {
     return (
-      <div>
+      <div className="col-12">
         { hirek.slice(0, show_count + 1).map(hir => <Hir hir={hir} />) }
         { hirek.length > 10 && <a
           href="#regebbi"

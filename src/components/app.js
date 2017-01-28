@@ -4,6 +4,9 @@ import { Router } from 'preact-router';
 import Header from './header';
 import Home from './home';
 import Kozigazgatas from './kozigazgatas';
+import Turizmus from './turizmus';
+import Intezmenyek from './intezmenyek';
+import CivilSzervezetek from './civil_szervezetek';
 import Gbk from './gbk';
 
 export default class App extends Component {
@@ -22,11 +25,14 @@ export default class App extends Component {
         />
         <Header />
         <div className="flex justify-center pb4">
-          <div style={{maxWidth: 800}}>
+          <div style={{maxWidth: 800}} className="col-12">
             <Router onChange={this.handleRoute}>
               <Home path="/" />
-              <Kozigazgatas path="/kozigazgatas/"/>
-              <Gbk path="/gbk/"/>
+              <Kozigazgatas path="/kozigazgatas"/>
+              <CivilSzervezetek path="/civil-szervezetek"/>
+              <Turizmus path="/turizmus"/>
+              <Intezmenyek path="/intezmenyek"/>
+              <Gbk path="/gbk"/>
             </Router>
           </div>
         </div>

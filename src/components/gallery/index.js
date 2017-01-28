@@ -5,7 +5,7 @@ function preloadImage(url) {
   img.src = url;
 }
 
-export default class Gbk extends Component {
+export default class Gallery extends Component {
   state = { active: 0 }
 
   showNext(pictures, active) {
@@ -14,6 +14,15 @@ export default class Gbk extends Component {
 
   componentDidMount() {
     this.props.pictures.map(preloadImage);
+
+    setTimeout(::this.setImageHeight, 150);
+    setTimeout(::this.setImageHeight, 500);
+  }
+
+  setImageHeight() {
+    if (this.gallery === null) return;
+
+    this.gallery.style.height = (this.gallery.offsetWidth * 0.69) + 'px';
   }
 
   render({ pictures }, { active }) {
@@ -25,7 +34,6 @@ export default class Gbk extends Component {
     const style = {
       backgroundColor: '#444',
       backgroundImage: `url('${pictures[active]}')`,
-      height: 430,
       backgroundRepeat: 'no-repeat',
       backgroundSize: 'cover',
     };
@@ -37,7 +45,11 @@ export default class Gbk extends Component {
     })();
 
     return (
-      <div className={`flex ${justifyClass} mt2`} style={style}>
+      <div
+        className={`flex ${justifyClass} mt2`}
+        style={style}
+        ref={(div) => { this.gallery = div; }}
+      >
         {
           showPrev && <a
             className="flex items-center"
@@ -46,7 +58,6 @@ export default class Gbk extends Component {
             }}
             href="#elozo"
             onClick={() => this.setState({ active: active - 1 })}
-          >
           >
             <svg style="width:48px;height:48px" viewBox="0 0 24 24">
               <path fill="#fff" d="M15.41,16.58L10.83,12L15.41,7.41L14,6L8,12L14,18L15.41,16.58Z" />

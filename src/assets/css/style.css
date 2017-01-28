@@ -660,3 +660,12 @@ body {
     background-size: cover;
   }
 }
+
+header.header a:hover {
+  color: #006D33;
+  cursor: pointer;
+}
+
+header.header a:hover path {
+  fill: #006D33;
+}
