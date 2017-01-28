@@ -28,7 +28,7 @@ export default class App extends Component {
         />
         <Header />
         <div className="flex justify-center pb4">
-          <div style={{width: 800}}>
+          <div style={{maxWidth: 800}}>
             <Router onChange={this.handleRoute}>
               <Home path="/" />
               <Kozigazgatas path="/kozigazgatas/"/>
