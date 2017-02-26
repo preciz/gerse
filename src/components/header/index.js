@@ -15,15 +15,15 @@ export default class Header extends Component {
             <Link
               className="color-white text-decoration-none pr2 bold fw900 center"
               href="/"
-            >HIREK</Link>
+            >HÍREK</Link>
             <Link
               className="color-white text-decoration-none px2 bold fw900 center"
               href="/kozigazgatas"
-            >KOZIGAZGATAS</Link>
+            >KÖZIGAZGATÁS</Link>
             <Link
               className="color-white text-decoration-none px2 bold fw900 center"
               href="/intezmenyek"
-            >INTEZEMENYEK</Link>
+            >INTÉZEMÉNYEK</Link>
             <Link
               className="color-white text-decoration-none px2 bold fw900 center"
               href="/turizmus"
@@ -35,7 +35,7 @@ export default class Header extends Component {
             <Link
               className="color-white text-decoration-none px2 bold fw900 center"
               href="/gbk"
-            >BARATI KOR</Link>
+            >BARÁTI KÖR</Link>
             <div className="flex items-center justify-between pl1" style="width: 130px">
               <a target="_blank" href="https://www.google.hu/maps/@46.9710616,16.741266,14z">
                 <svg style="width:24px;height:24px" viewBox="0 0 24 24">

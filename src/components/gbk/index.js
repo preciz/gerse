@@ -14,7 +14,7 @@ export default class Gbk extends Component {
     return (
       <div>
         <div className="bg-white mt3 p3 bshadow-md">
-          <h1 className="center h2 m0 mt2 mb3">Gersekaratert Barati Kor</h1>
+          <h1 className="center h2 m0 mt2 mb3">Gersekarátért Baráti Kör</h1>
           <p className="m0 justify color-endeavour">{ description_one }</p>
           {
             show_description && <div>
@@ -112,7 +112,7 @@ export default class Gbk extends Component {
                   e.preventDefault();
                   this.setState({ show_description: true });
                 }}
-              >Bovebben</a>
+              >Bővebben</a>
             </div>
           }
         </div>

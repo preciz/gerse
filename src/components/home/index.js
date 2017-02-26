@@ -24,7 +24,7 @@ export default class Home extends Component {
             e.preventDefault();
             this.setState({ show_count: show_count + 10 });
           }}
-        >Regebbi hirek</a>}
+        >Régebbi hírek</a>}
       </div>
     );
   }

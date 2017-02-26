@@ -11,7 +11,7 @@ export default class CivilSzervezetek extends Component {
           <Link
             className="text-decoration-none pr2 bold center h2"
             href="/gbk"
-          >Gersekaratert Barati Kor</Link>
+          >Gersekarátert Baráti Kör</Link>
           <div
             className="h3"
             dangerouslySetInnerHTML={{__html: page_body}}
