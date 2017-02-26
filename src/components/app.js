@@ -2,6 +2,7 @@ import { h, Component } from 'preact';
 import { Router } from 'preact-router';
 
 import Header from './header';
+import HeaderMobile from './header_mobile';
 import Home from './home';
 import Kozigazgatas from './kozigazgatas';
 import Turizmus from './turizmus';
@@ -24,6 +25,7 @@ export default class App extends Component {
           className="millenium-park"
         />
         <Header />
+        <HeaderMobile />
         <div className="flex justify-center pb4">
           <div style={{maxWidth: 800}} className="col-12">
             <Router onChange={this.handleRoute}>

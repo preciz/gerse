@@ -669,3 +669,10 @@ header.header a:hover {
 header.header a:hover path {
   fill: #006D33;
 }
+
+header.header-mobile { display: none }
+
+@media only screen and (max-width: 1070px) {
+  header.header-normal { display: none }
+  header.header-mobile { display: block }
+}

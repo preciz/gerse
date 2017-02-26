@@ -4,7 +4,7 @@ import { Link } from 'preact-router';
 export default class Header extends Component {
   render() {
     return (
-      <header className="header bg-holly p2">
+      <header className="header header-normal bg-holly p2">
         <div
           className="flex items-center"
           style="max-width: 1170px; margin: auto;"
