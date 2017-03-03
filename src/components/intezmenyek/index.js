@@ -143,8 +143,8 @@ export default class Intezmenyek extends Component {
       Szo - V: 8:00 - 19:00</p>
 
       <p><strong>Védőnői Szolgálat</strong><br/>
-        Védőnő: Kovács Györgyné<br/>
-        Mobil: +36-30/758-2572</p>
+        Védőnő: Laposa Katalin<br/>
+        Mobil: +36-30/502-6308</p>
 
       <p><strong>Rendelési idő:</strong><br/>
         Hétfő: 8:00 - 12:00</p>
@@ -184,8 +184,9 @@ export default class Intezmenyek extends Component {
 
       <p><strong>Nyitvatartás:</strong><br/>
         H - P: 6:00 - 17:00<br/>
-      Sz: 6:00 - 17:00<br/>
-      V: ZÁRVA</p>
+      Sz: 6:00 - 11:00<br/>
+      V: 7:00 - 11:00<br/>
+      </p>
 
       <p><strong>Co-op Vasvár Kft.</strong></p>
 
@@ -195,9 +196,13 @@ export default class Intezmenyek extends Component {
       Web: <a target="_blank" href="http://www.coop.hu">www.coop.hu</a></p>
 
       <p><strong>Nyitvatartás:</strong><br/>
-        H - P: 6:00 - 14:00<br/>
-      Sz: 6:00 - 17:00<br/>
-      V: ZÁRVA</p>
+        H: ZÁRVA<br/>
+        K: 6:15 - 11:30<br/>
+        Sz: 6:15 - 14:15<br/>
+        Cs: 6:15 - 11:30<br/>
+        P: 6:15 - 11:30<br/>
+        Sz: 6:15 - 11:30<br/>
+        V: ZÁRVA</p>
 
       <p><strong>Karát ABC</strong></p>
 
@@ -207,8 +212,8 @@ export default class Intezmenyek extends Component {
 
       <p><strong>Nyitvatartás:</strong><br/>
         H - P: 5:30 -10:00 14:00 -17:30<br/>
-      Sz: 7:00 -16:00<br/>
-      V: ZÁRVA</p>
+      Sz: 7:00 - 15:00<br/>
+      V: 7:00 - 10:00</p>
 
       <p><strong>Dohánybolt</strong></p>
 
@@ -216,24 +221,8 @@ export default class Intezmenyek extends Component {
 
       <p><strong>Nyitvatartás:</strong><br/>
         H - P: 5:30 - 17:30<br/>
-      Sz: 8:00 - 16:00<br/>
-      V: ZÁRVA</p>
-
-      <p><strong>Gazda és Ajándék Bolt</strong></p>
-
-      <p>Üzemeltető: Boros István / Mélyép-West Kft.<br/>
-        Cím: 9813 Gersekarát, Béke u. 10.<br/>
-        Tel/fax: +36-94/373-000<br/>
-      E-mail: <a target="_blank" href="mailto:borosistvan@melyepwest.hu">borosistvan@melyepwest.hu</a><br/>
-      Web: <a target="_blank" href="http://www.melyepwest.hu">www.melyepwest.hu</a></p>
-
-      <p><strong>Nyitvatartás:</strong><br/>
-        H: 8:00 - 12:00<br/>
-      K: 12:00 - 16:00<br/>
-      Sze: 8:00 - 12:00<br/>
-      Cs: 12:00 - 16:00<br/>
-      P: 8:00 - 12:00<br/>
-      Szo: 8:00 - 12:00</p>
+      Sz: 7:00 - 15:00<br/>
+      V: 7:00 - 10:00</p>
 
       <p><strong>Községi Önkormányzat, Konyha</strong><br/>
         Élelmezésvezető: Horváth Árpádné<br/>
@@ -250,25 +239,6 @@ export default class Intezmenyek extends Component {
         H: 16:00 - 21:00<br/>
       K - V: 7:00 - 21:00</p>
 
-      <p><strong>Fagylaltozó</strong><br/>
-        Üzemeltető: Boros István / Mélyép - West Kft.<br/>
-        Cím: Gersekarát, Petőfi u. 15.<br/>
-        Mobil: +36-30/945-7043<br/>
-      E-mail: <a target="_blank" href="mailto:borosistvan@melyepwest.hu">borosistvan@melyepwest.hu</a><br/>
-      Web: <a target="_blank" href="http://www.melyepwest.hu">www.melyepwest.hu</a></p>
-
-      <p><strong>Nyitvatartás:</strong><br/>
-        május 1-től szeptember 15-ig</p>
-
-      <h3>Községi Önkormányzat, Autóbusz bérlés</h3>
-
-      <p>Az önkormányzat tulajdonában lévő FORD TRANSIT közösségi busz 8 fő utas szállítására alkalmas. A mellékletben megtalálható a formanyomtatvány, amelyen az igénylést be lehet jelenteni a Körjegyzőségen az igénybevételt megelőzően legalább 10 nappal.</p>
-
-      <p>Elérhetőség:<br/>
-        Cím: 9813 Gersekarát, Béke u. 12.<br/>
-        Telefon: +36-94/574-019</p>
-
-      <p><a target="_blank" href="https://drive.google.com/file/d/0B7EPicf9wHAFMXpHcFZ0UlBnc1U/view?usp=sharing">Közösségi autóbusz igénylő dokumentum</a></p>
       </div>
       </div>
       </div>
