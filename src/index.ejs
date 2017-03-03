@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <script src="/gbk_palyazatok.js"></script>
   <% for (var chunk in htmlWebpackPlugin.files.css) { %>
     <link rel="preload" href="<%= htmlWebpackPlugin.files.css[chunk] %>"  as="style">
   <% } %>
