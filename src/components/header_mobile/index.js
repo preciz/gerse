@@ -18,12 +18,15 @@ export default class HeaderMobile extends Component {
             <h1 className="color-white m0 h3 pr2 fw900">GERSEKARÁT</h1>
             <a
               href="#menu"
+              className="flex-auto flex justify-end pr1 text-decoration-none"
               onClick={(e) => {
                 e.preventDefault();
                 this.setState({ open: !open });
               }}
-              className="flex-auto flex justify-end pr1"
             >
+              <span
+                className="color-white bold h3"
+              >Menu</span>
               <svg style="width:33px;height:33px" viewBox="0 0 24 24">
                 <path
                   fill="#fff"
