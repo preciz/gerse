@@ -2,11 +2,7 @@ import { h, Component } from 'preact';
 import { Link } from 'preact-router';
 
 export default class HeaderMobile extends Component {
-  state = {
-    open: false,
-  }
-
-  render({}, { open }) {
+  render({showMobileHeader, setMobileHeader}) {
     return (
       <header className="header header-mobile bg-holly p2">
         <div
@@ -21,7 +17,7 @@ export default class HeaderMobile extends Component {
               className="flex-auto flex justify-end pr1 text-decoration-none"
               onClick={(e) => {
                 e.preventDefault();
-                this.setState({ open: !open });
+                setMobileHeader(!showMobileHeader);
               }}
             >
               <span
@@ -36,7 +32,7 @@ export default class HeaderMobile extends Component {
             </a>
           </div>
           {
-            open && <nav
+            showMobileHeader && <nav
               className="flex flex-column items-center mt1"
             >
               <Link
