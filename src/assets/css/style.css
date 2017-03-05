@@ -676,3 +676,7 @@ header.header-mobile { display: none }
   header.header-normal { display: none }
   header.header-mobile { display: block }
 }
+
+#app {
+  overflow-x: hidden;
+}
