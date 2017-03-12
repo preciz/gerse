@@ -39,11 +39,11 @@ export default class App extends Component {
           <div style={{maxWidth: 800}} className="col-12">
             <Router onChange={this.handleRoute}>
               <Home path="/" />
-              <Kozigazgatas path="/kozigazgatas.html"/>
-              <CivilSzervezetek path="/civil-szervezetek.html"/>
-              <Turizmus path="/turizmus.html"/>
-              <Intezmenyek path="/intezmenyek.html"/>
-              <Gbk path="/gbk.html"/>
+              <Kozigazgatas path="/kozigazgatas"/>
+              <CivilSzervezetek path="/civil-szervezetek"/>
+              <Turizmus path="/turizmus"/>
+              <Intezmenyek path="/intezmenyek"/>
+              <Gbk path="/gbk"/>
             </Router>
           </div>
         </div>

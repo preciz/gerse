@@ -23,23 +23,23 @@ export default class Header extends Component {
             >HÍREK</Link>
             <Link
               className="color-white text-decoration-none px2 bold fw900 center"
-              href="/kozigazgatas.html"
+              href="/kozigazgatas"
             >KÖZIGAZGATÁS</Link>
             <Link
               className="color-white text-decoration-none px2 bold fw900 center"
-              href="/intezmenyek.html"
+              href="/intezmenyek"
             >INTÉZEMÉNYEK</Link>
             <Link
               className="color-white text-decoration-none px2 bold fw900 center"
-              href="/turizmus.html"
+              href="/turizmus"
             >TURIZMUS</Link>
             <Link
               className="color-white text-decoration-none px2 bold fw900 center"
-              href="/civil-szervezetek.html"
+              href="/civil-szervezetek"
             >CIVIL SZERVEZETEK</Link>
             <Link
               className="color-white text-decoration-none px2 bold fw900 center"
-              href="/gbk.html"
+              href="/gbk"
             >BARÁTI KÖR</Link>
             <div className="flex items-center justify-between pl1" style="width: 130px">
               <a target="_blank" href="https://www.google.hu/maps/@46.9710616,16.741266,14z">
