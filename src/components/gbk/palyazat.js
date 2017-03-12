@@ -21,8 +21,10 @@ export default class Palyazat extends Component {
       <div className="bg-white mt3 p3 bshadow-md">
         <div className="flex">
           <div className="flex-auto">
-            <div className="flex items-center justify-between">
-              <h3 className="m0">{palyazat.title}</h3>
+            <div
+              className="flex items-center justify-between flex-wrap"
+            >
+              <h3 className="m0 col-10">{palyazat.title}</h3>
               <h4 className="h4 m0 color-endeavour">{palyazat.date}</h4>
             </div>
             <p className="m0 color-endeavour">{palyazat.code}</p>
@@ -44,15 +46,23 @@ export default class Palyazat extends Component {
         {
           open && <div>
             <Gallery pictures={palyazat.pictures} />
-            <p>{palyazat.description}</p>
+            <p
+              style={{
+                whiteSpace: 'pre-line',
+              }}
+            >{palyazat.description}</p>
 
-            <p className="bold m0 mt3 mb1">Dokumentumok</p>
             {
-              palyazat.documents.map(({title, url}) => <div className="flex">
-                <a href={url}>
-                  <p className="m0">{title}</p>
-                </a>
-              </div>)
+              !!palyazat.documents.length && <div>
+                <p className="bold m0 mt3 mb1">Dokumentumok</p>
+                {
+                  palyazat.documents.map(({title, url}) => <div className="flex">
+                    <a href={url}>
+                      <p className="m0">{title}</p>
+                    </a>
+                  </div>)
+                }
+              </div>
             }
           </div>
         }
