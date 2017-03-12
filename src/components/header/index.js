@@ -9,8 +9,13 @@ export default class Header extends Component {
           className="flex items-center"
           style="max-width: 1170px; margin: auto;"
         >
-          <div className="header__logo mr1" style={{minWidth: 30}} />
-          <h1 className="color-white m0 h3 pr2 fw900">GERSEKARÁT</h1>
+          <Link
+            className="text-decoration-none flex items-center"
+            href="/"
+          >
+            <div className="header__logo mr1" style={{minWidth: 30}} />
+            <h1 className="color-white m0 h3 pr2 fw900">GERSEKARÁT</h1>
+          </Link>
           <nav className="flex items-center">
             <Link
               className="color-white text-decoration-none pr2 bold fw900 center"

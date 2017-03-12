@@ -10,8 +10,13 @@ export default class HeaderMobile extends Component {
           style="max-width: 1170px; margin: auto;"
         >
           <div className="flex items-center">
-            <div className="header__logo mr1" style={{minWidth: 30}} />
-            <h1 className="color-white m0 h3 pr2 fw900">GERSEKARÁT</h1>
+            <Link
+              className="text-decoration-none flex items-center"
+              href="/"
+            >
+              <div className="header__logo mr1" style={{minWidth: 30}} />
+              <h1 className="color-white m0 h3 pr2 fw900">GERSEKARÁT</h1>
+            </Link>
             <a
               href="#menu"
               className="flex-auto flex justify-end pr1 text-decoration-none items-center"
