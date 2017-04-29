@@ -1,6 +1,19 @@
 import { h, Component } from 'preact';
 import Palyazat from './palyazat';
 
+//{
+//  title: '',
+//  code: '',
+//  date: '2017.03.20',
+//  description: `
+//  `,
+//  documents: [
+//  ],
+//  pictures: [
+//    'http://imgur.com/1EtM7Zm.jpg',
+//  ],
+//},
+
 const gbk_palyazatok = [
   {
     title: 'Az „Oktatás közös ügyünk” mozgalom erősítése az oktatás korszerűbbé és hozzáférhetőbbé tételéért',
@@ -88,6 +101,68 @@ projektkoordinátor
       'http://i.imgur.com/lRULIuK.jpg',
 		],
 	},
+  {
+    title: 'Erdélyi fiatal önkéntesek Gersekaráton; Volunteering in Rural Area, in Gersekarat',
+    code: '2015-2-HU02-KA105-000960',
+    date: '2016.10.30',
+    description: `
+    Gersekarát 2015 szeptemberében kapcsolódott be a fiatalok nemzetközi mobilitását támogató ERASMUS+ programba, ezen belül is az Európai Önkéntes Szolgálatba (EVS). Ennek keretében a Gersekarátért Baráti Kör, mint a programhoz pályázó szervezet, 10 hónapos időtartamra két Erdélyi fiatal önkéntest tudott fogadni Romániából.
+
+    A szociológus végzettségű, Sepsiszentgyörgyről érkező Molnár Zsuzsanna tavaly szeptemberben érkezett, és ez év június végén fejezte be önkéntes szolgálatát a Művelődési házban kialakított és az egyesület által működtetett Integrált Közösségi és Szolgáltató Térben (IKSZT). A Székelykeresztúri ápoló végzettségű Ötvös István decemberben kezdte meg önkéntes szolgálatát a szervezetnél, melyet ez év szeptember végén fog befejezni.
+
+    A fiatalok hamar beilleszkedtek a helyi közösségbe, s a településen élők is megszokták ittlétüket és befogadták őket. Mindennapi tevékenységüket, melyet egy mentor segítetett, főként az IKSZT szolgáltatásait igénybevevők részére végezték, többek között információnyújtás, számítógép-, és Internethasználat biztosításában. A fogadó egyesület egyik kiemelt feladata a helyi értékmentés, az önkéntesek ebből a tevékenységből is aktívan kivették részüket. A Művelődési házban dolgozó kulturális közfoglalkozatottakkal közösen, főként idősebbeket meglátogatva, gyűjtöttek régi dokumentumokat és fotókat, valamint készítettek interjúkat a település múltjával kapcsolatban. Az önkéntesek jó kapcsolatot alakítottak ki a helyi fiatalokkal is, megtapasztalhatták a településen folyó ifjúsági munkát és ők is igyekeztek bemutatni a kinti fiatalok tevékenységét.
+
+    Az önkéntesek felkészítésében és az itt töltött időszakban a velük való kapcsolattartásban a Székelykeresztúri küldő szervezet, a Keresztúr Térségi Mezőgazdászok Egyesülete (AACS) működött közre. A projekt időszaka alatt a Gersekaráti fogadó szervezet és a Székelykeresztúri küldő szervezet is jó kapcsolatot alakított ki egymással, melyet további közös projektek, többek között egy Hungarikumos, és egy ifjúsági pályázat lebonyolításában kamatoztatott.
+
+    Jelen projekt révén több alkalommal is sor került a nemzetközi ifjúsági munka népszerűsítésére és a tapasztalatok megosztására nemcsak a helyi, hanem a környező településeken élő fiatalok körében is, mint például Nádasdon, Rábahidvégen és Oszkóban. Ennek hatására a helyi fiatalok körében megélénkült az érdeklődés a külföldi ifjúsági mobilitási lehetőségek iránt. Az eltelt időszakban Gersekaráti fiatalok részt vettek egy Németországi ifjúsági cserét előkészítő projektben, illetve két egy hónapos ifjúsági önkéntes szolgálatban, Finnországban.
+
+    Az Erdélyi fiatalok ittléte alatt olyan barátságok kötődtek a helyiekkel, hogy például a már elutazott Zsuzsa, mivel a tavalyi szüreti felvonuláson is részt vett, és ott nagyon jól érezte magát, ez év őszén is visszatér erre az alkalomra, Gersekarátra. Munkatapasztalat-szerezésre és nyelvtanulásra, valamint „világlátásra” nagyszerű alkalom az Európai Önkéntes Szolgálat. A Gersekaráti fiatalok igyekeznek részesei lenni a nemzetközi ifjúsági mobilitási lehetőségeknek, ebben segítséget nyújt számukra a helyi ifjúsági közösséget támogató Gersekarátért Baráti Kör. Ezen kívül az egyesület szívesen nyújt támogatást más szervezeteknek is az erre irányuló kezdeményezéseikben.
+
+    Ferencz Lászlóné
+    projekt koordinátor
+    `,
+    documents: [
+    ],
+    pictures: [
+      'http://imgur.com/me60Z3w.jpg',
+      'http://imgur.com/SYEECqf.jpg',
+      'http://imgur.com/qCRfiHP.jpg',
+      'http://imgur.com/08agf7Q.jpg',
+      'http://imgur.com/g93Po49.jpg',
+      'http://imgur.com/mdGZK8l.jpg',
+    ],
+  },
+  {
+    title: 'Nemzeti értékeink itthon és külhonban – Települési értéktárak Gersekaráton és Székelykeresztúron',
+    code: 'HF/270/2016',
+    date: '2016.10.30',
+    description: `
+    Gersekaráti látogatás Székelykeresztúrra
+
+
+
+    Az elmúlt hétvégén a Gersekarátért Baráti Kör és a Gersekarát Község Önkormányzatának képviselői Székelykeresztúrra látogattak a Nemzeti értékeink itthon és külhonban - Települési Értéktárak Gersekaráton és Székelykeresztúron című pályázat keretén belül, ahol a Keresztúr Térségi Mezőgazdászok Egyesületének képviselőivel találkoztak. A látogatás célja a Székelykeresztúri Értéktár Bizottság megalapításának, illetve az értéktár kialakítás lépéseinek megbeszélése volt. A találkozón Székelykeresztúr különböző intézményeinek képviselői is részt vettek: Köblös Domokos alpolgármester, Orbán Lívia Borbála, a Molnár István Múzeum konzervátora, illetve Tódor Éva kulturális referens.
+
+    A találkozó a bemutatkozásokkal kezdődött, majd ezt követően Gersekarát polgármestere, Csordás Tamásné bemutatta a települést. Ezt követően a Gersekaráti Baráti Kör elnöke, Ferencz Lászlóné ismertette az egyesület tevékenységét, előző pályázatuk eredményeit, illetve értéktárukat, melyet egy korábbi pályázati támogatás segítségével alakítottak ki. Székelykeresztúr alpolgármestere is röviden bemutatta a települést. Az Erdélyi település számos turisztikai, természeti és építészeti értékkel rendelkezik. Ezt követően a Keresztúr Térségi Mezőgazdászok Egyesületének tevékenységi beszámolója következett. A bemutatókat egy beszélgetés követett, mely során a résztvevők megbeszélték az Értéktár Bizottság megalapításának és a lehetséges értékek nyilvántartásba vételének szakaszait. A tematikus találkozó második fele a helység és környékének megismerésére összpontosított, a csoport főként olyan nevezetességeket látogatott és tekintett meg, amelyek akár bekerülhetnek az ottani értéktárba, mint például a helyi múzeum látnivalói, a Sóskút Fürdő, illetve a „Petőfi körtefa” és emlékterem.
+
+    A projekt következő szakaszában a Székelykeresztúri Értéktár Bizottság kialakítására kerül sor, illetve az értékek dokumentálására. A keresztúri delegáció augusztusban látogat Gersekarátra, e találkozó keretében bemutatásra kerülnek a projekt eredményei.
+
+    A projekt megvalósítását a Földművelésügyi Minisztérium támogatja.
+
+    Ferencz Lászlóné,
+
+    projekt menedzser
+    `,
+    documents: [
+    ],
+    pictures: [
+      'http://imgur.com/tW7gP6y.jpg',
+      'http://imgur.com/DfGpD62.jpg',
+      'http://imgur.com/WPvDjTz.jpg',
+      'http://imgur.com/KZq0fCd.jpg',
+      'http://imgur.com/PXXwAT8.jpg',
+    ],
+  },
 ];
 
 export default class Palyazatok extends Component {
