@@ -2,6 +2,32 @@ import { h, Component } from 'preact';
 import Palyazat from './palyazat';
 
 const gbk_palyazatok = [
+  {
+    title: 'Az „Oktatás közös ügyünk” mozgalom erősítése az oktatás korszerűbbé és hozzáférhetőbbé tételéért',
+    code: 'NEA-TF-16-SZ-0439',
+    date: '2017.03.20',
+    description: `
+A Gersekarátért Baráti Kör a Nemzeti Együttműködési Alap Társadalmi Felelősségvállalás kollégiuma
+által támogatott „Oktatás közös ügyünk” mozgalom erősítése az oktatás korszerűbbé és hozzáférhetőbbé tételéért elnevezésű projektje keretében több elismert és hiteles szakember bevonásával számos innovatív és partneri kezdeményezést tudott megvalósítani az elmúlt egy évben az oktatási módszerek fejlesztése terén.
+A projektnek kettős célja volt: az oktatásügyben innovatív elképzelésekkel bíró szakemberek hálózatba szervezése, munkájuk összehangolása, illetve a közvélemény figyelmének az oktatás stratégiai fontosságára irányítása.
+
+Az oktatás közös ügyünk hálózat az elmúlt két évben alakult. Szakemberek egy csoportja országszerte több tucat iskola-külső környezet együttműködést szervezett. Ezek olyan innovációs elemeket és sikereket értek el, mint az iskolai közösségi szolgálat civil menedzsmentre épített minőségi lebonyolítása, szülői részvétel az iskola életében, diákok önállóságára épített projektek, civil szervezetekkel megoldott iskolai drogprobléma, leszakadó gyerekek közösségi alapú támogatása. A kis sikerek szinergikus hatással bírtak, s közel kéttucatnyi megvalósító egy országos hálózatba állt össze.
+
+Különösen az indította el a közös gondolkodást, hogy sok oktatási és más humán szakember jelezte, hogy a programokon felül maga az együttműködés, a konzultáció friss lendületet hozott a szektorba. Ezt tudatosan figyelve látták meg a szakemberek, hogy mennyire egymással kapcsolatban nem levő részekre bomlik az oktatásért dolgozók köre. Ezt a hiányterületet kezdték el betölteni az érdeklődő kollégáknak beszélgető köröket és műhelyfoglalkozásokat szervezve. Az így kialakult kör kezdeményezte az egyesület által koordinált projektet, mely célt és keretet adott a közös munkának.
+Az egyesület maga is része és tagja a hálózatnak, saját működését is ilyen irányba mozdította el.
+
+A programok során a közreműködő szervezetfejlesztő szakemberek, többek között civilek, tanárok és humán fejlesztők tucatnyi iskolával kezdtek el mélyebben és rendszerszerűen együttműködni. A szülők és civil szervezetek bevonásával valósítottak meg számos iskolai programot, volt olyan intézmény, mely családi iskolává nevezte ki magát. A tapasztalatok megosztását és cseréjét segítette az iskolákban megvalósított két csapatépítő nap, a tíz alkalommal megszervezett műhelytalálkozó, illetve a 2016 nyarán, Agárdon megtartott három napos nyári egyetem is.
+A figyelemfelkeltést és a tapasztalatok megosztását szolgálja a szakmai programok alkalmával elkészült három kisfilm, melyek felkerültek a közösségi portálokra, illetve az egyesület honlapjára is.
+
+A projekt során maga az egyesület is gazdagodott egy újfajta innovatív és partneri kapcsolatokra épülő szemléletmóddal, amelyek alkalmazásával könnyebben boldogul ebben a felgyorsult, rohamosan átalakuló világban.
+    `,
+    documents: [
+    ],
+    pictures: [
+      'http://imgur.com/brjKFGr.jpg',
+      'http://imgur.com/1EtM7Zm.jpg',
+    ],
+  },
 	{
     title: 'Itthonról haza - Szervezetfejlesztéssel és pályaorientációval a Gersekaráti fiatalokért!',
 		code: 'NEA-TF-16-M-0461',
