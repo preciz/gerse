@@ -38,13 +38,7 @@ module.exports = {
 	},
 
 	module: {
-		preLoaders: [
-			{
-				test: /\.jsx?$/,
-				exclude: path.resolve(__dirname, 'src'),
-				loader: 'source-map'
-			}
-		],
+		preLoaders: [],
 		loaders: [
 			{
 				test: /\.jsx?$/,
