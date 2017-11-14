@@ -50,8 +50,8 @@ export default class Palyazat extends Component {
               style={{
                 whiteSpace: 'pre-line',
               }}
-            >{palyazat.description}</p>
-
+              dangerouslySetInnerHTML={{ __html: palyazat.description }}
+            />
             {
               !!palyazat.documents.length && <div>
                 <p className="bold m0 mt3 mb1">Dokumentumok</p>

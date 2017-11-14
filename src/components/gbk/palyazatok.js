@@ -16,6 +16,41 @@ import Palyazat from './palyazat';
 
 const gbk_palyazatok = [
   {
+    title: 'Kárpát-medencei fiatal gazdálkodók öko-bio konferenciája',
+    code: 'NEA-NO-17-SZ-0365',
+    date: '2017.08.14',
+    description: `
+Szöveg:
+
+Agrárkonferencia Székelykeresztúron
+
+A Gersekarátért Baráti Kör a Keresztúr Térségi Mezőgazdászok és az Udvarhelyszéki Mezőgaszdászok Egyesületével partnerségben 2017. augusztus 10 – 13. között rendezte meg Székelykeresztúron a Kárpát-medencei fiatal gazdálkodók öko-bio konferenciáját. Az 50 fő résztvevő a Felvidékről, Kárpátaljáról, Vajdaságból, Magyarországról és Erdélyből érkezett. Magyarországról a Gersekarátért Baráti Kör képviseletében 6 fő fiatal vett részt a rendezvényen. A konferencia immár harmadik alkalommal adott lehetőséget a mezőgazdaság iránt érdeklődőknek, hogy találkozzanak, új ismereteket szerezzenek és tapasztalatot cseréljenek egymással.
+
+A szervezők az előző évhez hasonlóan, idén is törekedtek arra, hogy kézzel fogható tudással gyarapítsák a résztvevőket, ezért most is lehetőségük volt ellátogatni sikeres mezőgazdasági vállalkozásokhoz. A program nyitónapján a Kárpát-medencei fiatal gazdálkodók perspektívái témában hallhattak előadást, a folytatásban magyarországi és erdélyi előadók következtek, akik öko-bio témában osztottak meg érdekes történeteket. A délelőtti előadások után két bio gazdaság meglátogatása következett: egy bio méhészeté és egy bio pálinkafőzdéé. Az estét néptáncbemutató zárta.
+
+A konferencia második napján a fiatalok az öko-bio termékek emberi szervezetre gyakorolt jótékony hatásáról, pályázati lehetőségekről, valamint az öko-bio gazdálkodás nehézségeiről és annak fontosságáról hallhattak előadásokat. Délután meglátogattak egy akvapóniát, és az estét egy olyan termékbemutatóval folytatták, amely keretében a konferencia résztvevői az udvarhelyszéki és gyergyószéki termelőkkel kötetlenül beszélgethettek a termékeikről és tapasztalataikról.
+
+A konferencia megszervezését a Pallas Athéné Domus Concordiae Alapítvány, a Földművelésügyi Minisztérium, a Nemzeti Együttműködési Alap, a Nemzetstratégiai Kutatóintézet és a Nemzeti Agrárgazdasági Kamara támogatta.
+
+
+
+Média megjelenések:
+
+<a href="http://www.keresztur.info/hirek/3558-agrarkonferencia-szekelykereszturon.html"> http://www.keresztur.info/hirek/3558-agrarkonferencia-szekelykereszturon.html </a>
+
+<a href="http://aacs.ro/lezarult-az-oko-bio-konferencia/"> http://aacs.ro/lezarult-az-oko-bio-konferencia/ </a>
+
+<a href="http://aacs.ro/en/944/"> http://aacs.ro/en/944/ </a>
+    `,
+    documents: [
+    ],
+    pictures: [
+      'https://i.imgur.com/TtFuu4K.jpg',
+      'https://i.imgur.com/1BaKavV.jpg',
+      'https://i.imgur.com/LeXed6M.jpg',
+    ],
+  },
+  {
     title: 'Az „Oktatás közös ügyünk” mozgalom erősítése az oktatás korszerűbbé és hozzáférhetőbbé tételéért',
     code: 'NEA-TF-16-SZ-0439',
     date: '2017.03.20',
